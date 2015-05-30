@@ -1,9 +1,5 @@
 source 'https://rubygems.org'
 
-group :production do
-  gem 'ruby-git'
-end
-
 gemspec
 
 group :development do
