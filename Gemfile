@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'ruby-git'
+group :production do
+  gem 'ruby-git'
+end
 
-# Specify your gem's dependencies in gco.gemspec
 gemspec
 
-gem 'rspec'
-gem 'rspec-nc'
-gem 'guard'
-gem 'guard-rspec'
+group :development do
+  gem 'rspec'
+  gem 'rspec-nc'
+  gem 'guard'
+  gem 'guard-rspec'
+end
