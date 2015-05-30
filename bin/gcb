@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'gcb'
+
+Gcb::BranchChanger.new.change!(ARGV.join(' '))
