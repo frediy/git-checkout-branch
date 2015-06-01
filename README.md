@@ -6,6 +6,8 @@ Git Checkout Branch (gcb) is a gem for quickly checking out gems based on partia
 
     $ gem install gcb
 
+Beware that this will only install the gem for your current ruby environment! If you're using tools like rvm or rbenv, you might want to install the gem globally.
+
 ## Usage
 
 ```
