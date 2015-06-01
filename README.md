@@ -1,6 +1,6 @@
 # Git Checkout Branch
 
-Git Checkout Branch (gcb) is a gem for quickly checking out gems based on partial names.
+Git Checkout Branch (gcb) is a gem for quickly checking out branches based on partial names.
 
 ## Installation
 
