@@ -1,26 +1,19 @@
-# Gco
+# Git Checkout Branch
 
-TODO: Write a gem description
+Git Checkout Branch (gcb) is a gem for quickly checking out gems based on partial names.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'gco'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install gco
+    $ gem install gcb
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ gcb weird
+Switched to branch 'my-weird-branch-1337123456'
+$ gcb ast
+Switched to branch 'master'
+```
 
 ## Contributing
 
